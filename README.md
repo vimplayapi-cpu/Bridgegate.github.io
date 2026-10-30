@@ -1,6 +1,6 @@
 # Bridge Gate
 
-Responsive static ICT consulting website for https://bridgegate.eu, with Home, Services, Enterprise, About, Contact, Privacy Notice, Website Terms and a 404 page. Local SVG branding and no runtime dependencies. Existing layout, liquid-glass controls and motion effects are preserved.
+Responsive static ICT consulting website for https://bridgegate.eu, with Home, Services, Enterprise, About, Contact, Privacy Notice, Website Terms and a 404 page. Local transparent logo branding and no runtime dependencies. Existing layout, liquid-glass controls and motion effects are preserved.
 
 ## Preview
 
@@ -40,4 +40,4 @@ Brand: Bridge Gate. Owner-supplied address: Street Bulair 22, Pomorie, 8200, Bul
 
 ## Security and assets
 
-Original Bridge Gate SVG wordmark and bridge motif in assets/bridgegate-logo.svg; favicon uses the bridge motif. Local assets avoid mixed content. Every HTML page retains its restrictive static Content Security Policy and referrer policy. HTTPS issuance and enforcement require the hosting settings, not HTML.
+Owner-supplied gold Bridgegate monogram and wordmark in assets/bridgegate-logo-transparent.png. Black background removed with alpha transparency; original gold artwork preserved. Header, footer and About page use this asset; favicon retains the bridge motif. Local assets avoid mixed content. Every HTML page retains its restrictive static Content Security Policy and referrer policy. HTTPS issuance and enforcement require the hosting settings, not HTML.
