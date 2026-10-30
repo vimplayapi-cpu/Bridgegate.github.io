@@ -15,7 +15,7 @@ if (form) {
   event.preventDefault();
   if (!form.reportValidity()) return;
   const data = new FormData(form);
-  const subject = `Bridge Gate enquiry: ${data.get('topic')}`;
+  const subject = `BridgePoint enquiry: ${data.get('topic')}`;
   const body = `Name: ${data.get('name')}\nEmail: ${data.get('email')}\nCompany: ${data.get('company') || 'Not specified'}\nArea: ${data.get('topic')}\n\n${data.get('message')}`;
   document.querySelector('#email-draft').value = `To: bridgepoint@gmail.com\nSubject: ${subject}\n\n${body}`;
   document.querySelector('#email-fallback').hidden = false;
@@ -128,4 +128,3 @@ motionButton?.addEventListener('click',()=>{userPaused=!userPaused;syncMotion();
 reducedMotion.addEventListener('change',syncMotion);
 document.addEventListener('visibilitychange',syncMotion);
 syncMotion();
-
