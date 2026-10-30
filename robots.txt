@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.bridgepoints.io/sitemap.xml
+Sitemap: https://bridgegate.eu/sitemap.xml
+
